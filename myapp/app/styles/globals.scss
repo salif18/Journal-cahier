@@ -1,0 +1,22 @@
+
+
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f6f6f6
+}
+
+@import './navbar';
+@import './home';
+@import './cardjornal';
+@import './jornal';
+@import './detail';
+@import './loading';
+@import './champform';
+@import './list'

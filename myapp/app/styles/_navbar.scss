@@ -1,0 +1,42 @@
+.navbar{
+   width: 80%;
+   height: 20vh;
+   border-bottom: 1px solid #a5a5a58c;
+   background-color: #f6f6f6;
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   .logo-zone{
+    display: flex;
+    align-items: center;
+   
+    .logo{
+        width: 80px;
+        height: 80px;
+    }
+    h2{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        color: #0caad1;
+    }
+   }
+
+   .list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+        .lien{
+            text-decoration: none;
+            font-size: 16px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 20px;
+            font-weight: 550;
+            color: #9f00cf;
+        }
+   }
+
+
+}

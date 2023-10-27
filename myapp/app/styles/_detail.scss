@@ -1,0 +1,33 @@
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    width: 80%;
+    flex-direction: column;
+    .table{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #1b2631be;
+        .head-ligne{
+            width: 100%;
+            height: 50px;
+            padding: 15px;
+            th{
+                border-bottom: 1px solid #1b2631be;
+                border-left:1px solid #1b2631be;
+                text-align: center;
+                width: 200px;
+                height: 40px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }}
+        .body-ligne{
+            th{
+                border-left: 1px solid #1b2631be;
+                height: 80px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        }    
+    }
+   
+}
